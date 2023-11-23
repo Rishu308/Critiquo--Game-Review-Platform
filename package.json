@@ -1,0 +1,13 @@
+{
+  "name": "critiquo---games-review-platform",
+  "version": "1.0.0",
+  "description": "1. Introduction\r 2. Install Tools\r 3. Create React App\r 4. Create Git Repository\r 5. List Products\r    1. create products array\r    2. add product images\r    3. render products\r    4. style products",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm i --force  && cd ../frontend && npm i --force && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
